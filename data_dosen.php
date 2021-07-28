@@ -1,7 +1,6 @@
 <?php
 include_once("config.php");
 
-// Fetch all users data from database
 $all_dosen = mysqli_query($mysqli, "SELECT * FROM 73_dosen ORDER BY id ASC");
 ?>
 <!doctype html>

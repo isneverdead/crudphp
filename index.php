@@ -35,8 +35,8 @@
 
     <div class="user-photo-container row justify-content-center">
         <div class="user-photo justify-content-center overflow-hidden">
-            <img src="./kendall.jpg" alt="foto profil">
-            <!-- <img src="./fotoku.jpg" alt="foto profil"> -->
+
+            <img src="./fotoku.jpg" alt="foto profil">
         </div>
     </div>
 

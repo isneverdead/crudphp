@@ -1,7 +1,6 @@
 <?php
 include_once("config.php");
 
-// Fetch all users data from database
 $all_mahasiswa = mysqli_query($mysqli, "SELECT * FROM 73_mahasiswa ORDER BY id ASC");
 ?>
 <!doctype html>
@@ -49,9 +48,8 @@ $all_mahasiswa = mysqli_query($mysqli, "SELECT * FROM 73_mahasiswa ORDER BY id A
                 <button type="button" class="btn btn-primary mx-2">Tambah Data</button>
             </a>
             <a href="./cetak_mahasiswa.php">
-                <input type="button" value="Print" onclick="document.getElementById('PDFtoPrint').focus(); document.getElementById('PDFtoPrint').contentWindow.print();">
 
-                <!-- <button type="button" class="btn btn-primary mx-2">Cetak data</button> -->
+                <button type="button" class="btn btn-primary mx-2">Cetak data</button>
             </a>
         </div>
 
